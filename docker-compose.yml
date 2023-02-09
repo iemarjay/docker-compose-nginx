@@ -5,3 +5,4 @@ services:
     image: nginx
     volumes:
       - ./conf.d:/etc/nginx/conf.d
+      - ./logs:/var/log/nginx
